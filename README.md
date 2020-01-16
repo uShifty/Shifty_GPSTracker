@@ -1,10 +1,10 @@
 # Shifty_GPSTracker
-A ESX based script for civilians to attach trackers onto vehicles to keep track of their targets.
+A ESX based script for civilians to attach trackers onto vehicles to keep track of their targets. You need to stay in range of the vehicle in order for the trackers signal to stay connected. Once out of range it will not reconnect once in range. I am looking into a way to increase the range,
 
 # Requirements 
 Mythic_Notify: https://github.com/mythicrp/mythic_notify
 
-Mythic_ProgBar(My Edit): TBR
+Mythic_ProgBar(My Edit): https://github.com/ShiftyOG/mythic_progbar
 
 # Installation
 Drag and drop into your resource folder

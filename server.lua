@@ -14,3 +14,10 @@ ESX.RegisterUsableItem('gpstracker', function(source)
     xPlayer.removeInventoryItem('gpstracker', 1)
     TriggerClientEvent('Shifty_GPSTracker:attachgps', source)
 end)
+
+RegisterServerEvent('Shifty_GPSTracker:removeGPSItem')
+AddEventHandler('Shifty_GPSTracker:removeGPSItem', function()
+    local xPlayer = ESX.GetPlayerFromId(source)
+    xPlayer.removeInventoryItem('gpstracker', 1)
+end)
+
